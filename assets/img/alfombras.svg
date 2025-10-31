@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#0f1720" />
+  <g transform="translate(120,140)">
+    <rect width="560" height="320" rx="20" fill="#0b1220" stroke="#1f2937" stroke-width="2" />
+    <g fill="#e6eef6" opacity="0.9">
+      <rect x="40" y="30" width="480" height="120" rx="10" fill="#111827" opacity="0.6" />
+      <rect x="60" y="170" width="440" height="90" rx="8" fill="#ef4444" opacity="0.06" />
+    </g>
+  </g>
+  <text x="400" y="500" font-family="Segoe UI, Roboto, Arial" font-size="34" fill="#e6eef6" text-anchor="middle">Alfombras a medida</text>
+</svg>

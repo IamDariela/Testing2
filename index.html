@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AutoAccesorios • Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">AutoAccesorios</a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contactanos.html">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section class="hero">
+      <h1>Accesorios para tu auto, con estilo</h1>
+      <p class="lead">Calidad, diseño y funcionalidad en cada pieza. Encuentra fundas, alfombras, luces LED y más.</p>
+      <p><a class="btn" href="productos.html">Ver productos</a></p>
+    </section>
+
+    <section class="features">
+      <article class="card small">
+        <h3>Envío rápido</h3>
+        <p>Despachos en 24-72 horas según tu zona.</p>
+      </article>
+      <article class="card small">
+        <h3>Garantía</h3>
+        <p>Garantía de 12 meses en defectos de fabricación.</p>
+      </article>
+      <article class="card small">
+        <h3>Soporte</h3>
+        <p>Asesoría para encontrar el accesorio ideal para tu modelo.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> AutoAccesorios — Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script>
+    // Actualiza año en el pie
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
