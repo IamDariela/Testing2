@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AutoAccesorios • Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">AutoAccesorios</a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contactanos.html">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main">
+    <h1>Productos</h1>
+    <p class="lead">Selecciona entre nuestros accesorios más populares.</p>
+
+    <section class="grid">
+      <article class="card product">
+        <div class="media">
+          <img loading="lazy" src="assets/img/fundas.svg" alt="Fundas premium para asientos">
+        </div>
+        <h3>Fundas premium</h3>
+        <p class="price">$49.99</p>
+        <p class="desc">Fundas resistentes y fáciles de limpiar. Varios colores disponibles.</p>
+        <p><a class="btn ghost" href="#">Agregar</a></p>
+      </article>
+
+      <article class="card product">
+        <div class="media">
+          <img loading="lazy" src="assets/img/alfombras.svg" alt="Alfombras a medida para coche">
+        </div>
+        <h3>Alfombras a medida</h3>
+        <p class="price">$39.99</p>
+        <p class="desc">Alfombras con ajuste perfecto para tu modelo.</p>
+        <p><a class="btn ghost" href="#">Agregar</a></p>
+      </article>
+
+      <article class="card product">
+        <div class="media">
+          <img loading="lazy" src="assets/img/leds.svg" alt="Luces LED interiores para coche">
+        </div>
+        <h3>Luces LED interiores</h3>
+        <p class="price">$24.99</p>
+        <p class="desc">Iluminación LED suave y eficiente para cabina.</p>
+        <p><a class="btn ghost" href="#">Agregar</a></p>
+      </article>
+
+      <article class="card product">
+        <div class="media">
+          <img loading="lazy" src="assets/img/organizador.svg" alt="Organizador de maletero">
+        </div>
+        <h3>Organizador de maletero</h3>
+        <p class="price">$19.99</p>
+        <p class="desc">Mantén ordenado el maletero con compartimentos resistentes.</p>
+        <p><a class="btn ghost" href="#">Agregar</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year2"></span> AutoAccesorios</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
